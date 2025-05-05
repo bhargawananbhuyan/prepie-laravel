@@ -2,7 +2,7 @@ FROM ubuntu:24.04
 
 LABEL maintainer="Taylor Otwell"
 
-ARG WWWGROUP=1000
+ARG WWWGROUP
 ARG POSTGRES_VERSION=15
 
 WORKDIR /var/www/html
